@@ -1,0 +1,14 @@
+{% extends './layout.html' %}
+
+
+{% block body %}
+<h1>{{ libros[tipo].nombre }}</h1>
+<p>{{ libros[tipo].descripcion }}</p>
+<p>{{ libros[tipo].creacion }}</p>
+{% for name in libros[tipo].lista %}
+    <p>{{name}}</p>
+{% endfor %}
+<!-- <a href='{{ url_for("download", filename="{{libros[tipo].pdf}}")}}'>descargar</a> -->
+{% endblock %}
+
+<!-- <script src="{{ url_for('static', filename='js/download.js') }}"></script> -->

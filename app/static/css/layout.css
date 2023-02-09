@@ -1,0 +1,30 @@
+
+.card-image{
+    
+    width: 16.9rem !important;
+    height: 10rem !important;
+}
+
+
+body {
+    background-color: rgba(224, 213, 208, 0.91) !important;
+    background-color: rgba(224, 213, 208, 0.91) !important;
+    position: relative  !important;
+    padding: 0 0rem !important;
+    font-family: var(--body-font) !important;
+    font-size: var(--normal-font-size) !important;
+    transition: .5s !important
+
+}
+  
+.btn{
+
+    background-color:rgb(209, 94, 18) !important;
+    border-color: blanchedalmond !important;
+    height: 44px !important;
+
+
+     }
+
+
+  
